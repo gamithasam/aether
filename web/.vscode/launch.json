@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:web}",
+            "name": "Debug TestApp",
+            "program": "${workspaceFolder:web}/.build/debug/TestApp",
+            "preLaunchTask": "swift: Build Debug TestApp"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:web}",
+            "name": "Release TestApp",
+            "program": "${workspaceFolder:web}/.build/release/TestApp",
+            "preLaunchTask": "swift: Build Release TestApp"
+        }
+    ]
+}
